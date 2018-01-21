@@ -1,6 +1,9 @@
 # BT15-01 Vidjot
 ## An app to jot down ideas for videos.
 
+![Home Page](../assets/a.png?raw=true)
+![ideas/index.handlebars](../assets/b.png?raw=true)
+
 * Lecture 13 - Working with Templates
   * 'express-handlebars'
 
