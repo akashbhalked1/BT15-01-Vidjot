@@ -23,9 +23,8 @@ require('./config/passport')(passport);
 // Connect to mongoose ----------------------------------------------
 mongoose.Promise = global.Promise;
 
-const db = require('./config/database');
-mongoose.connect(db.mongoURI, {useMongoClient: true})
-        .then(() => console.log('Connected to MongoDB.'))
+mongoose.connect('mongodb://localhost:27017/bt15-01', {useMongoClient: true})
+        .then(() => console.log('Connected to database.'))
         .catch((err) => console.log(err));
 
 // Middlewares ------------------------------------------------------
