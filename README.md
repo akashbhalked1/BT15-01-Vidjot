@@ -1,4 +1,4 @@
-# BT15-01 Vidjot
+# BT15-01-Vidjot
 ## An app to jot down ideas for videos.
 
 ![Home Page](../assets/a.png?raw=true)
